@@ -5,12 +5,14 @@ import (
 	"net/http"
 	"sync"
 
-	"project-root/pkg/bot"
-	"project-root/pkg/api"
-	"project-root/pkg/database"
-	"project-root/pkg/utils/config"
-	"project-root/pkg/utils/logger"
+	"github.com/pandaaxi/homie_bot/pkg/bot"
+	"github.com/pandaaxi/homie_bot/pkg/api"
+	"github.com/pandaaxi/homie_bot/pkg/database"
+	"github.com/pandaaxi/homie_bot/pkg/utils/config"
+	"github.com/pandaaxi/homie_bot/pkg/utils/logger"
 )
+
+
 
 func main() {
 	// Load configuration and initialize logger
