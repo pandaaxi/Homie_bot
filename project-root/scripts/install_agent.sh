@@ -15,7 +15,7 @@ if [ -z "$TOKEN" ] || [ -z "$SERVER_URL" ]; then
 fi
 
 echo "Downloading agent binary..."
-# Replace the URL with the actual download location from your GitHub releases.
+# Replace this URL with the actual download location from your GitHub releases.
 curl -L -o agent https://github.com/pandaaxi/homie_bot/releases/latest/download/agent
 if [ $? -ne 0 ]; then
   echo "Failed to download agent binary."
