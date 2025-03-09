@@ -1,15 +1,15 @@
 package main
 
 import (
-	"log"
-	"net/http"
-	"sync"
+    "log"
+    "net/http"
+    "sync"
 
-	"github.com/pandaaxi/homie_bot/pkg/bot"
-	"github.com/pandaaxi/homie_bot/pkg/api"
-	"github.com/pandaaxi/homie_bot/pkg/database"
-	"github.com/pandaaxi/homie_bot/pkg/utils/config"
-	"github.com/pandaaxi/homie_bot/pkg/utils/logger"
+    "github.com/pandaaxi/homie_bot/pkg/bot"
+    "github.com/pandaaxi/homie_bot/pkg/api"
+    "github.com/pandaaxi/homie_bot/pkg/database"
+    "github.com/pandaaxi/homie_bot/pkg/utils/config"
+    "github.com/pandaaxi/homie_bot/pkg/utils/logger"
 )
 
 
