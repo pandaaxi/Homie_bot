@@ -7,4 +7,4 @@ require (
     github.com/mattn/go-sqlite3 v1.14.16
 )
 
-replace github.com/pandaaxi/homie_bot => .
+replace github.com/pandaaxi/homie_bot => ./
