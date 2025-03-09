@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"./pkg/api/auth"
+	"github.com/pandaaxi/homie_bot/pkg/api/auth"
 )
 
 func StartServer(addr, certFile, keyFile string) {
