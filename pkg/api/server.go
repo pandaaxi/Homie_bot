@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"project-root/pkg/api/auth"
+	"./pkg/api/auth"
 )
 
 func StartServer(addr, certFile, keyFile string) {
